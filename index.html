@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Dashboard</title>
   </head>
   <body>
@@ -23,80 +25,103 @@
         </ul>
       </div>
       <div class="header">
-        <form>
-          <input type="search" />
+        <div class="upper-header">
+          <form>
+            <input type="search" />
+          </form>
+          <img src="" alt="" /><img src="" alt="" />
+          Morgan Oakely
+        </div>
+        <div class="lower-header">
           <span><img src="" alt="" />Hi there, Morgan Oakely(@Morgan)</span>
-          <button type="button">New</button>
-          <button type="button">Upload</button>
-          <button type="button">Share</button>
-        </form>
+          <div class="buttons">
+              <button type="button">New</button>
+              <button type="button">Upload</button>
+              <button type="button">Share</button>
+          </div>
+        </div>
       </div>
+
       <div class="main-content">
-        <div>
-          Your Projects
-
-          <div class="project">
-            Super Cool Project Maecenas bibendum cursus urna quis cursus. Donec
-            non purus consequat, sodales risus eget, interdum nunc.
-            <img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
-          </div>
-          <div class="project">
-            Less Cool Project Cras tincidunt purus turpis, vitae vulputate diam
-            malesuada congue. Aenean efficitur dignissim mauris, at feugiat
-            urna.<img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
-          </div>
-          <div class="project">
-            Impossible App Quisque faucibus neque vel nisl pellentesque, eu
-            lobortis dolor hendrerit. Ut fringilla diam vitae vulputate
-            ultricies.<img src="" alt="" /><img src="" alt="" /><img
-              src=""
-              alt=""
-            />
-          </div>
-          <div class="project">
-            Easy Peasy App Maecenas pretium vitae quam id faucibus. Nunc at
-            justo orci. Curabitur eleifend mauris ac convallis consequat.
-            <img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
-          </div>
-          <div class="project">
-            Ad Blocker Suspendisse vitae eros lacinia, fermentum tellus et,
-            vestibulum metus. Donec sed nulla ac quam laoreet aliquet.
-            <img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
-          </div>
-          <div class="project">
-            Money Maker Suspendisse tempus, lorem quis consequat fermentum,
-            lacus sapien congue nisl, eget scelerisque purus magna sed nisi.
-            Nulla et vehicula purus. <img src="" alt="" /><img
-              src=""
-              alt=""
-            /><img src="" alt="" />
-          </div>
+        <div class="projects">
+            <div class="project">
+              <p>Super Cool Project</p>
+              <p>
+                Maecenas bibendum cursus urna quis cursus. Donec non purus
+                consequat, sodales risus eget, interdum nunc.
+              </p>
+              <img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
+            </div>
+            <div class="project">
+              <p>Less Cool Project</p>
+              <p>
+                Cras tincidunt purus turpis, vitae vulputate diam malesuada
+                congue. Aenean efficitur dignissim mauris, at feugiat urna.
+              </p>
+              <img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
+            </div>
+            <div class="project">
+              <p>Impossible App</p>
+              <p>
+                Quisque faucibus neque vel nisl pellentesque, eu lobortis dolor
+                hendrerit. Ut fringilla diam vitae vulputate ultricies.
+              </p>
+              <img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
+            </div>
+            <div class="project">
+              <p>Easy Peasy App</p>
+              <p>
+                Maecenas pretium vitae quam id faucibus. Nunc at justo orci.
+                Curabitur eleifend mauris ac convallis consequat.
+              </p>
+              <img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
+            </div>
+            <div class="project">
+              <p>Ad Blocker</p>
+              <p>
+                Suspendisse vitae eros lacinia, fermentum tellus et, vestibulum
+                metus. Donec sed nulla ac quam laoreet aliquet.
+              </p>
+              <img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
+            </div>
+            <div class="project">
+              <p>Money Maker</p>
+              <p>
+                Suspendisse tempus, lorem quis consequat fermentum, lacus sapien
+                congue nisl, eget scelerisque purus magna sed nisi. Nulla et
+                vehicula purus.
+              </p>
+              <img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
+            </div>
         </div>
-
-        <div>Announcements</div>
-        <ul>
-          <li>
-            Site Maitenance Aliquam et risus sagittis enim ullamcorper suscipit.
-            Phasellus ...
-          </li>
-          <li>Community Share Day</li>
-          Cras dolor massa, ornare eget venenatis sit amet, accumsan ut libero
-          ...
-          <li>
-            Update Privacy Policy Vivamus ligula quam, sollicitudin ac aliquam
-            at, pharetra id tortor. ...
-          </li>
-        </ul>
-        <div>
-          Trending
-          <ul class="trending-list">
-            <li><img src="" alt="" />@Tegan</li>
-            <li><img src="" alt="" />@Morgan</li>
-            <li><img src="" alt="" />@Kendall</li>
-            <li><img src="" alt="" />@Alex</li>
-          </ul>
+        <div class="announcements-trending">
+          <div class="announcements">
+            Announcements
+            <ul>
+              <li>
+                Site Maitenance Aliquam et risus sagittis enim ullamcorper
+                suscipit. Phasellus ...
+              </li>
+              <li>Community Share Day</li>
+              Cras dolor massa, ornare eget venenatis sit amet, accumsan ut
+              libero ...
+              <li>
+                Update Privacy Policy Vivamus ligula quam, sollicitudin ac
+                aliquam at, pharetra id tortor. ...
+              </li>
+            </ul>
+          </div>
+  
+          <div class="trending">
+            Trending
+            <ul class="trending-list">
+              <li><img src="" alt="" />@Tegan</li>
+              <li><img src="" alt="" />@Morgan</li>
+              <li><img src="" alt="" />@Kendall</li>
+              <li><img src="" alt="" />@Alex</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
   </body>
 </html>
