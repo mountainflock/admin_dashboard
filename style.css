@@ -16,47 +16,39 @@ body {
 }
 
 .sidebar {
-  display: flex;
+  display: grid;
+  grid-template-rows: repeat(20, 1fr);
   grid-row: 1/5;
   background-color: #00ace6;
-  padding: 30px;
-  gap: 12px;
+  gap: 10px;
+  padding-top: 30px;
+  padding-left: 20px;
 }
 
-.sidebar-icons-list {
-  display: flex;
-  flex-direction: column;
+.menu-item {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
   grid-column: 1/2;
-  grid-row: 1/16;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
   gap: 10px;
 }
 
-.dashboard-title {
-  margin-bottom: 26px;
-  margin-top: 4px;
+#dashboard {
+  font-size: 20px;
 }
 
-.dashboard-icon {
-  margin-bottom: 30px;
+#dashboard-menu-item,
+#communities-menu-item {
+  margin-bottom: 40px;
+}
+.navigation-item {
+  align-self: center;
 }
 
-.sidebar-menu-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  font-family: sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: white;
-  text-align: left;
-}
-
-.communities {
-  margin-bottom: 50px;
-}
-
-.communities-icon {
-  margin-bottom: 50px;
+.branding-section {
+  align-self: center;
 }
 
 .header {
