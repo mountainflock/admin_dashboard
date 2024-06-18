@@ -12,6 +12,6 @@ To rebuild the page CSS Grid methods were only used.
  * CSS
 
  ## Display
- ![screenshot](./Screenshot.png)
+ ![screenshot](./screenshot.png)
 
 
